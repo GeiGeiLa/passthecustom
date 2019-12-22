@@ -12,9 +12,11 @@ namespace LetMePassTheCustom
 {
     public partial class Passport : Form
     {
+
         public Passport()
         {
             InitializeComponent();
+
         }
 
         private void Passport_Load(object sender, EventArgs e)
@@ -50,6 +52,12 @@ namespace LetMePassTheCustom
         private void lb_result_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void next_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            (new Document()).Show();
         }
     }
 }

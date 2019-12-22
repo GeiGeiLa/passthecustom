@@ -46,7 +46,7 @@
             this.lb_applyForPassport.Font = new System.Drawing.Font("微軟正黑體", 11.17241F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lb_applyForPassport.Location = new System.Drawing.Point(113, 73);
             this.lb_applyForPassport.Name = "lb_applyForPassport";
-            this.lb_applyForPassport.Size = new System.Drawing.Size(148, 24);
+            this.lb_applyForPassport.Size = new System.Drawing.Size(142, 23);
             this.lb_applyForPassport.TabIndex = 0;
             this.lb_applyForPassport.Text = "請修改text (8/1)";
             // 
@@ -56,7 +56,7 @@
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 11.17241F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.Location = new System.Drawing.Point(113, 376);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 24);
+            this.label1.Size = new System.Drawing.Size(64, 23);
             this.label1.TabIndex = 5;
             this.label1.Text = "提示：";
             // 
@@ -66,7 +66,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("微軟正黑體", 11.17241F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.linkLabel1.Location = new System.Drawing.Point(174, 376);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(472, 24);
+            this.linkLabel1.Size = new System.Drawing.Size(445, 23);
             this.linkLabel1.TabIndex = 6;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "https://www.boca.gov.tw/cp-56-3012-9e168-1.html";
@@ -78,7 +78,7 @@
             this.jan.Font = new System.Drawing.Font("微軟正黑體", 11.17241F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.jan.Location = new System.Drawing.Point(117, 203);
             this.jan.Name = "jan";
-            this.jan.Size = new System.Drawing.Size(58, 28);
+            this.jan.Size = new System.Drawing.Size(56, 27);
             this.jan.TabIndex = 7;
             this.jan.Text = "1/1";
             this.jan.UseVisualStyleBackColor = true;
@@ -89,7 +89,7 @@
             this.march.Font = new System.Drawing.Font("微軟正黑體", 11.17241F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.march.Location = new System.Drawing.Point(117, 296);
             this.march.Name = "march";
-            this.march.Size = new System.Drawing.Size(58, 28);
+            this.march.Size = new System.Drawing.Size(56, 27);
             this.march.TabIndex = 9;
             this.march.Text = "3/1";
             this.march.UseVisualStyleBackColor = true;
@@ -115,6 +115,7 @@
             this.next.TabIndex = 11;
             this.next.Text = "下一步";
             this.next.UseVisualStyleBackColor = true;
+            this.next.Click += new System.EventHandler(this.next_Click);
             // 
             // lb_result
             // 
@@ -122,7 +123,7 @@
             this.lb_result.Font = new System.Drawing.Font("微軟正黑體", 11.17241F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lb_result.Location = new System.Drawing.Point(113, 340);
             this.lb_result.Name = "lb_result";
-            this.lb_result.Size = new System.Drawing.Size(86, 24);
+            this.lb_result.Size = new System.Drawing.Size(82, 23);
             this.lb_result.TabIndex = 12;
             this.lb_result.Text = "作答結果";
             this.lb_result.Click += new System.EventHandler(this.lb_result_Click);
@@ -133,9 +134,9 @@
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 11.17241F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.Location = new System.Drawing.Point(113, 415);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(409, 24);
+            this.label2.Size = new System.Drawing.Size(388, 23);
             this.label2.TabIndex = 13;
-            this.label2.Text = "注意：若沒遵守此規定，將有機會被拒絕登機。";
+            this.label2.Text = "注意：若沒遵守此規定，將有機會被拒絕入境。";
             // 
             // Feb
             // 
@@ -143,7 +144,7 @@
             this.Feb.Font = new System.Drawing.Font("微軟正黑體", 11.17241F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Feb.Location = new System.Drawing.Point(117, 249);
             this.Feb.Name = "Feb";
-            this.Feb.Size = new System.Drawing.Size(58, 28);
+            this.Feb.Size = new System.Drawing.Size(56, 27);
             this.Feb.TabIndex = 14;
             this.Feb.Text = "2/1";
             this.Feb.UseVisualStyleBackColor = true;

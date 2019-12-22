@@ -52,6 +52,13 @@
     <Compile Include="BookingTicket.Designer.cs">
       <DependentUpon>BookingTicket.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Document.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Document.Designer.cs">
+      <DependentUpon>Document.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +89,9 @@
     <EmbeddedResource Include="BookingTicket.resx">
       <DependentUpon>BookingTicket.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Document.resx">
+      <DependentUpon>Document.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +112,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -115,6 +126,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taiwan_ROC_Passport.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taiwan_ROC_Passport1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROC_ID_2005_specimen_front.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20180718165455-8c570a02bf03ec8bf7323722ff8cb5bb-mobile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visa.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
