@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LetMePassTheCustom</name>
+    </assembly>
+    <members>
+        <member name="F:LetMePassTheCustom.BookingTicket.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.BookingTicket.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LetMePassTheCustom.BookingTicket.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LetMePassTheCustom.CustomLibs.Utils">
+            <summary>
+            這是我寫的Lib
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.CustomLibs.Utils.mouseDrag(System.Windows.Forms.Form,System.Windows.Forms.Control,System.Windows.Forms.MouseEventArgs,System.Boolean,System.Drawing.Point)">
+            <summary> 拖拉的 method
+            <para>Form 直接傳入 this 即可</para>
+            需要自己在外面建立一個 bool 表示允許拖拉
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.CustomLibs.Utils.CenterOf(System.Windows.Forms.Control)">
+            <summary> 取得控制項的中間位置
+            <para>Form 直接傳入 button, label 所有控制項</para>
+            </summary>
+        </member>
+        <member name="F:LetMePassTheCustom.Document.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.Document.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LetMePassTheCustom.Document.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LetMePassTheCustom.Form1.components">
+            <summary>
+            設計工具所需的變數。
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.Form1.Dispose(System.Boolean)">
+            <summary>
+            清除任何使用中的資源。
+            </summary>
+            <param name="disposing">如果應該處置 Managed 資源則為 true，否則為 false。</param>
+        </member>
+        <member name="M:LetMePassTheCustom.Form1.InitializeComponent">
+            <summary>
+            此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
+            這個方法的內容。
+            </summary>
+        </member>
+        <member name="F:LetMePassTheCustom.GameGuide.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.GameGuide.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LetMePassTheCustom.GameGuide.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LetMePassTheCustom.GameStage.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.GameStage.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LetMePassTheCustom.GameStage.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LetMePassTheCustom.Items.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.Items.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LetMePassTheCustom.Items.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LetMePassTheCustom.Passport.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.Passport.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LetMePassTheCustom.Passport.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.Program.Main">
+            <summary>
+            應用程式的主要進入點。
+            </summary>
+        </member>
+        <member name="T:LetMePassTheCustom.Properties.Resources">
+            <summary>
+              用於查詢當地語系化字串等的強類型資源類別。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.ResourceManager">
+            <summary>
+              傳回這個類別使用的快取的 ResourceManager 執行個體。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.Culture">
+            <summary>
+              覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+              使用這個強類型資源類別的資源查閱。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources._20180718165455_8c570a02bf03ec8bf7323722ff8cb5bb_mobile">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.history">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.history1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.ROC_ID_2005_specimen_front">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.Taiwan_ROC_Passport">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.Taiwan_ROC_Passport1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.visa">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -8,28 +8,46 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+// 我寫了一些 
+using LetMePassTheCustom.CustomLibs;
 namespace LetMePassTheCustom
 {
     public partial class Document : Form
     {
-        List<Point> OriginalPositions;
+        readonly List<Point> OriginalPositions;
         List<bool> draggable;
         List<Point> fixedPoints;
+        readonly List<Point> destPoints;
         public Document()
         {
             InitializeComponent();
             OriginalPositions = new List<Point>();
             fixedPoints = new List<Point>();
             draggable = new List<bool>();
-            draggable.Add(false);
-            // 記錄所有圖片的初始位置
-            foreach(var pb in this.Controls.OfType<PictureBox>())
+            destPoints = new List<Point>();
+            for(int i = 0; i < 4; i++)
             {
-                OriginalPositions.Add(pb.Location);
-                fixedPoints.Add(pb.Location);
+                draggable.Add(false);
             }
-        }
+            // 記錄所有圖片的初始位置
+            OriginalPositions.Add(pb_passport.Location);
+            OriginalPositions.Add(pb_id.Location);
+            OriginalPositions.Add(pb_atmcard.Location);
+            OriginalPositions.Add(pb_visa.Location);
+            fixedPoints.Add(pb_passport.Location);
+            fixedPoints.Add(pb_id.Location);
+            fixedPoints.Add(pb_atmcard.Location);
+            fixedPoints.Add(pb_visa.Location);
+            destPoints.Add(new Point(37,180));
+            destPoints.Add(new Point(193, 180));
+            destPoints.Add(new Point(414, 180));
+            destPoints.Add(new Point(644, 180));
 
+        }
+        bool InRange(Form form, Control draggedObject, Control referenceObject)
+        {
+            return false;
+        }
         private void lb_1_Click(object sender, EventArgs e)
         {
 
@@ -65,48 +83,131 @@ namespace LetMePassTheCustom
 
         private void pb_id_MouseUp(object sender, MouseEventArgs e)
         {
-            draggable[0] = false;
-            if(CenterOf(pb_id).X < )
+            draggable[1] = false;
+            if(Utils.CenterOf(pb_id).X < rd_id.Right+50 && Utils.CenterOf(pb_id).X > rd_id.Left)
             {
-
+                pb_id.Location = destPoints[1];
+            }
+            else
+            {
+                pb_id.Location = OriginalPositions[1];
             }
         }
 
         private void pb_id_MouseMove(object sender, MouseEventArgs e)
         {
-            mouseDrag((Control)pb_id, e, this.draggable[0], this.fixedPoints[0]);
+            Utils.mouseDrag(this,(Control)pb_id, e, this.draggable[1], this.fixedPoints[1]);
         }
 
         private void pb_id_MouseDown(object sender, MouseEventArgs e)
         {
+            draggable[1] = true;
+            fixedPoints[1] = new Point(e.X, e.Y);
+        }
+        private void pb_atmcard_MouseDown(object sender, MouseEventArgs e)
+        {
+            draggable[2] = true;
+            fixedPoints[2] = new Point(e.X, e.Y);
+        }
+
+        private void pb_atmcard_MouseUp(object sender, MouseEventArgs e)
+        {
+            draggable[2] = false;
+            if (Utils.CenterOf(pb_atmcard).X < rd_atmcard.Right + 50 && Utils.CenterOf(pb_atmcard).X > rd_atmcard.Left)
+            {
+                pb_atmcard.Location = destPoints[2];
+            }
+            else
+            {
+                pb_atmcard.Location = OriginalPositions[2];
+            }
+        }
+
+        private void pb_atmcard_MouseMove(object sender, MouseEventArgs e)
+        {
+            Utils.mouseDrag(this, (Control)pb_atmcard, e, this.draggable[2], this.fixedPoints[2]);
+
+        }
+
+        private void pb_passport_MouseDown(object sender, MouseEventArgs e)
+        {
             draggable[0] = true;
             fixedPoints[0] = new Point(e.X, e.Y);
         }
-        void mouseDrag(Control control, MouseEventArgs e, bool canDrag, Point oldPoint)
+
+        private void pb_passport_MouseUp(object sender, MouseEventArgs e)
         {
-            if(canDrag && e.Button == MouseButtons.Left)
+            draggable[1] = false;
+            if (Utils.CenterOf(pb_passport).X < rd_passport.Right + 50 && Utils.CenterOf(pb_passport).X > rd_passport.Left)
             {
-                int x = control.Left + (e.X - oldPoint.X);
-                if(x > this.ClientSize.Width - control.Width)
-                {
-                    x = this.ClientSize.Width - control.Width;
-                }
-                x = (x < 0) ? 0 : x;
-                control.Left = x;
-                int y = control.Top + (e.Y - oldPoint.Y);
-                if (y > this.ClientSize.Height - control.Height)
-                {
-                    y = this.ClientSize.Height - control.Height;
-                }
-                y = (y < 0) ? 0 : y;
-                control.Top = y;
+                pb_passport.Location = destPoints[0];
+            }
+            else
+            {
+                pb_passport.Location = OriginalPositions[0];
             }
         }
-        Point CenterOf(Control control)
+
+        private void pb_passport_MouseMove(object sender, MouseEventArgs e)
         {
-            return new Point(
-                control.Left + control.Width / 2,
-                control.Top + control.Height / 2);
+            Utils.mouseDrag(this, (Control)pb_passport, e, this.draggable[0], this.fixedPoints[0]);
+
+        }
+
+        private void pb_visa_MouseDown(object sender, MouseEventArgs e)
+        {
+            draggable[3] = true;
+            fixedPoints[3] = new Point(e.X, e.Y);
+        }
+
+        private void pb_visa_MouseUp(object sender, MouseEventArgs e)
+        {
+            draggable[0] = false;
+            if (Utils.CenterOf(pb_visa).X < rd_visa.Right + 50 && Utils.CenterOf(pb_visa).X > rd_visa.Left)
+            {
+                pb_visa.Location = destPoints[3];
+            }
+            else
+            {
+                pb_visa.Location = OriginalPositions[3];
+            }
+        }
+
+        private void pb_visa_MouseMove(object sender, MouseEventArgs e)
+        {
+            Utils.mouseDrag(this, (Control)pb_visa, e, this.draggable[3], this.fixedPoints[3]);
+
+        }
+
+        private void btn_next_Click(object sender, EventArgs e)
+        {
+            bool dragged = pb_passport.Location == destPoints[0]
+                && pb_id.Location == destPoints[1]
+                && pb_atmcard.Location == destPoints[2]
+                && pb_visa.Location == destPoints[3];
+            bool correct = rd_safepassport.Checked &&
+                 rd_atmopened.Checked &&
+                 !rd_visaok.Checked;
+
+            if(!dragged || !correct)
+            {
+                MessageBox.Show( "答錯了", "再檢查一下", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                this.Hide();
+                (new Items()).Show();
+            }
+        }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

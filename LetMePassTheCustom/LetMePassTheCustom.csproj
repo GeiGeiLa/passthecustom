@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\LetMePassTheCustom.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -53,6 +54,9 @@
       <DependentUpon>BookingTicket.cs</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
+    <Compile Include="CustomLibs\Utils.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Document.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +81,12 @@
     <Compile Include="GameStage.Designer.cs">
       <DependentUpon>GameStage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Items.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items.Designer.cs">
+      <DependentUpon>Items.cs</DependentUpon>
+    </Compile>
     <Compile Include="Passport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GameStage.resx">
       <DependentUpon>GameStage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items.resx">
+      <DependentUpon>Items.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Passport.resx">
       <DependentUpon>Passport.cs</DependentUpon>
@@ -141,6 +154,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\visa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

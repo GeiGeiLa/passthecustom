@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btn_startGame = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -66,11 +67,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // button2
+            // 
+            this.button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button2.Location = new System.Drawing.Point(368, 411);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(167, 65);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "遊戲進度";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(936, 608);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_startGame);
             this.Controls.Add(this.label1);
@@ -86,6 +98,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_startGame;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

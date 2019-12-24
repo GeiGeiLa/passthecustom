@@ -117,26 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Taiwan_ROC_Passport1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Taiwan_ROC_Passport1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="history" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\history.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ROC_ID_2005_specimen_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ROC_ID_2005_specimen_front.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="visa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\visa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Taiwan_ROC_Passport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Taiwan_ROC_Passport.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="20180718165455-8c570a02bf03ec8bf7323722ff8cb5bb-mobile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\20180718165455-8c570a02bf03ec8bf7323722ff8cb5bb-mobile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="history1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\history1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
