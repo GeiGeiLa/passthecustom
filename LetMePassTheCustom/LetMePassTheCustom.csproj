@@ -81,6 +81,9 @@
     <Compile Include="GameStage.Designer.cs">
       <DependentUpon>GameStage.cs</DependentUpon>
     </Compile>
+    <Compile Include="ItemClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Items.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +163,75 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\history1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cupboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backpack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luggage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iPad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magicbottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wetpaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lighter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\powerbank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knife.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nailcutter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nailcutter1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c4bomb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hairspray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c4bomb1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ham1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c4bomb2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backpack1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\luggage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forbid.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

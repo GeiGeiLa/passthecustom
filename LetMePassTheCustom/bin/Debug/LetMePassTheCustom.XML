@@ -105,6 +105,37 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="T:LetMePassTheCustom.Bring">
+            <summary>
+            設定允許攜帶的類型
+            </summary>
+        </member>
+        <member name="F:LetMePassTheCustom.Bring.All">
+            <summary>任意</summary>
+        </member>
+        <member name="F:LetMePassTheCustom.Bring.Checkin">
+            <summary> 只能託運 </summary>
+        </member>
+        <member name="F:LetMePassTheCustom.Bring.Carryon">
+            <summary>只能隨身攜帶</summary>
+        </member>
+        <member name="F:LetMePassTheCustom.Bring.Forbidden">
+            <summary> 違禁品</summary>
+        </member>
+        <member name="T:LetMePassTheCustom.ItemClass">
+            <summary>
+            物件 class
+            </summary>
+        </member>
+        <member name="F:LetMePassTheCustom.ItemClass.canBring">
+            <summary>允許攜帶的方式</summary>
+        </member>
+        <member name="T:LetMePassTheCustom.Backpack">
+            <summary>這是背包</summary>
+        </member>
+        <member name="T:LetMePassTheCustom.Lugguage">
+            <summary>這是行李</summary>
+        </member>
         <member name="F:LetMePassTheCustom.Items.components">
             <summary>
             Required designer variable.
@@ -165,6 +196,66 @@
               查詢類型 System.Drawing.Bitmap 的當地語系化資源。
             </summary>
         </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.backpack">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.backpack1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.c4bomb">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.c4bomb1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.c4bomb2">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.candy">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.cap">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.cupboard">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.forbid">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.hairspray">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.ham">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.ham1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
         <member name="P:LetMePassTheCustom.Properties.Resources.history">
             <summary>
               查詢類型 System.Drawing.Bitmap 的當地語系化資源。
@@ -175,7 +266,57 @@
               查詢類型 System.Drawing.Bitmap 的當地語系化資源。
             </summary>
         </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.iPad">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.knife">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.lighter">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.luggage">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.luggage1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.magicbottle">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.nailcutter">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.nailcutter1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.powerbank">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
         <member name="P:LetMePassTheCustom.Properties.Resources.ROC_ID_2005_specimen_front">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.room">
             <summary>
               查詢類型 System.Drawing.Bitmap 的當地語系化資源。
             </summary>
@@ -191,6 +332,11 @@
             </summary>
         </member>
         <member name="P:LetMePassTheCustom.Properties.Resources.visa">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.wetpaper">
             <summary>
               查詢類型 System.Drawing.Bitmap 的當地語系化資源。
             </summary>

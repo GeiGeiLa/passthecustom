@@ -313,6 +313,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Document";
             this.Text = "Document";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Document_FormClosing);
             this.Load += new System.EventHandler(this.Document_Load);
             this.Click += new System.EventHandler(this.Document_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pb_visa)).EndInit();

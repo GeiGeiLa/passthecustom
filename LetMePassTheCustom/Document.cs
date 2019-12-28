@@ -209,5 +209,11 @@ namespace LetMePassTheCustom
         {
 
         }
+
+        private void Document_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // 確認關閉視窗
+            Form1.Form1_FormClosing(sender, e);
+        }
     }
 }

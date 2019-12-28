@@ -40,5 +40,20 @@ namespace LetMePassTheCustom
             var gameGuide = new GameGuide();
             gameGuide.Show();
         }
+
+        public static void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            var yesno = MessageBox.Show( "您確定要離開遊戲？", "離開遊戲", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if(yesno == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+            else
+            {
+                e.Cancel = false;
+
+                Application.Exit();
+            }
+        }
     }
 }

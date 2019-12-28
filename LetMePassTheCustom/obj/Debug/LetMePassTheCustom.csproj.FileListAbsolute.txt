@@ -13,3 +13,4 @@ d:\onedrive\文件\visual studio 2015\Projects\LetMePassTheCustom\LetMePassTheCu
 d:\onedrive\文件\visual studio 2015\Projects\LetMePassTheCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Document.resources
 D:\OneDrive\文件\Visual Studio 2015\Projects\LetMePassTheCustom\LetMePassTheCustom\bin\Debug\LetMePassTheCustom.XML
 D:\OneDrive\文件\Visual Studio 2015\Projects\LetMePassTheCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Items.resources
+d:\onedrive\文件\visual studio 2015\Projects\LetMePassTheCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.csprojResolveAssemblyReference.cache
