@@ -14,3 +14,20 @@ d:\onedrive\文件\visual studio 2015\Projects\LetMePassTheCustom\LetMePassTheCu
 D:\OneDrive\文件\Visual Studio 2015\Projects\LetMePassTheCustom\LetMePassTheCustom\bin\Debug\LetMePassTheCustom.XML
 D:\OneDrive\文件\Visual Studio 2015\Projects\LetMePassTheCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Items.resources
 d:\onedrive\文件\visual studio 2015\Projects\LetMePassTheCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.csprojResolveAssemblyReference.cache
+C:\Users\板板\passthecustom\LetMePassTheCustom\bin\Debug\LetMePassTheCustom.exe.config
+C:\Users\板板\passthecustom\LetMePassTheCustom\bin\Debug\LetMePassTheCustom.XML
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.exe
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.pdb
+C:\Users\板板\passthecustom\LetMePassTheCustom\bin\Debug\LetMePassTheCustom.exe
+C:\Users\板板\passthecustom\LetMePassTheCustom\bin\Debug\LetMePassTheCustom.pdb
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.csprojResolveAssemblyReference.cache
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.BookingTicket.resources
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Document.resources
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Form1.resources
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.GameGuide.resources
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.GameStage.resources
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Items.resources
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Passport.resources
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Properties.Resources.resources
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.csproj.GenerateResource.Cache
+C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.home.resources

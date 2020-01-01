@@ -15,6 +15,7 @@ namespace LetMePassTheCustom
         public Form1()
         {
             InitializeComponent();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -29,7 +30,8 @@ namespace LetMePassTheCustom
 
         private void button1_Click(object sender, EventArgs e)
         {
-            (new Passport()).Show();
+            // (new Passport()).Show();
+            (new home()).Show();
             this.Hide();
         }
 
