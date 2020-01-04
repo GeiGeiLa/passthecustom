@@ -31,3 +31,22 @@ C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Pa
 C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Properties.Resources.resources
 C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.csproj.GenerateResource.Cache
 C:\Users\板板\passthecustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.home.resources
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\bin\Debug\LetMePassTheCustom.exe.config
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\bin\Debug\LetMePassTheCustom.XML
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.exe
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.pdb
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\bin\Debug\LetMePassTheCustom.exe
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\bin\Debug\LetMePassTheCustom.pdb
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.csprojResolveAssemblyReference.cache
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.BookingTicket.resources
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Document.resources
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Form1.resources
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.GameGuide.resources
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.GameStage.resources
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.home.resources
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Items.resources
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Passport.resources
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Properties.Resources.resources
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.csproj.GenerateResource.Cache
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.FastPass.resources
+D:\OneDrive\文件\Visual Studio 2015\Projects\ReinitPassCustom\LetMePassTheCustom\obj\Debug\LetMePassTheCustom.Solider.resources

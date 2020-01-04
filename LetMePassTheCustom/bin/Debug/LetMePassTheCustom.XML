@@ -54,6 +54,23 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:LetMePassTheCustom.FastPass.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.FastPass.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LetMePassTheCustom.FastPass.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:LetMePassTheCustom.Form1.components">
             <summary>
             設計工具所需的變數。
@@ -192,6 +209,40 @@
             應用程式的主要進入點。
             </summary>
         </member>
+        <member name="F:LetMePassTheCustom.openedWindows.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.openedWindows.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LetMePassTheCustom.openedWindows.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:LetMePassTheCustom.Solider.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LetMePassTheCustom.Solider.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LetMePassTheCustom.Solider.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:LetMePassTheCustom.Properties.Resources">
             <summary>
               用於查詢當地語系化字串等的強類型資源類別。
@@ -219,6 +270,11 @@
             </summary>
         </member>
         <member name="P:LetMePassTheCustom.Properties.Resources.backpack1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.bg">
             <summary>
               查詢類型 System.Drawing.Bitmap 的當地語系化資源。
             </summary>
@@ -323,6 +379,26 @@
               查詢類型 System.Drawing.Bitmap 的當地語系化資源。
             </summary>
         </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.out_whole">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.pathfinder">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.perfect">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.person">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
         <member name="P:LetMePassTheCustom.Properties.Resources.powerbank">
             <summary>
               查詢類型 System.Drawing.Bitmap 的當地語系化資源。
@@ -344,6 +420,11 @@
             </summary>
         </member>
         <member name="P:LetMePassTheCustom.Properties.Resources.Taiwan_ROC_Passport1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:LetMePassTheCustom.Properties.Resources.temp">
             <summary>
               查詢類型 System.Drawing.Bitmap 的當地語系化資源。
             </summary>

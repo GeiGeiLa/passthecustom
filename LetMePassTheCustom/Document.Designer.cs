@@ -45,7 +45,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.pb_visa = new System.Windows.Forms.PictureBox();
             this.pb_atmcard = new System.Windows.Forms.PictureBox();
             this.pb_id = new System.Windows.Forms.PictureBox();
@@ -71,9 +70,10 @@
             // 
             this.rd_passport.AutoSize = true;
             this.rd_passport.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.rd_passport.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.rd_passport.Location = new System.Drawing.Point(81, 114);
             this.rd_passport.Name = "rd_passport";
-            this.rd_passport.Size = new System.Drawing.Size(56, 19);
+            this.rd_passport.Size = new System.Drawing.Size(58, 23);
             this.rd_passport.TabIndex = 2;
             this.rd_passport.Text = "護照";
             this.rd_passport.UseVisualStyleBackColor = true;
@@ -81,9 +81,10 @@
             // rd_id
             // 
             this.rd_id.AutoSize = true;
+            this.rd_id.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.rd_id.Location = new System.Drawing.Point(264, 114);
             this.rd_id.Name = "rd_id";
-            this.rd_id.Size = new System.Drawing.Size(71, 19);
+            this.rd_id.Size = new System.Drawing.Size(73, 23);
             this.rd_id.TabIndex = 3;
             this.rd_id.Text = "身分證";
             this.rd_id.UseVisualStyleBackColor = true;
@@ -91,9 +92,10 @@
             // rd_atmcard
             // 
             this.rd_atmcard.AutoSize = true;
+            this.rd_atmcard.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.rd_atmcard.Location = new System.Drawing.Point(468, 114);
             this.rd_atmcard.Name = "rd_atmcard";
-            this.rd_atmcard.Size = new System.Drawing.Size(120, 19);
+            this.rd_atmcard.Size = new System.Drawing.Size(124, 23);
             this.rd_atmcard.TabIndex = 4;
             this.rd_atmcard.Text = "金融卡/信用卡";
             this.rd_atmcard.UseVisualStyleBackColor = true;
@@ -101,9 +103,10 @@
             // rd_visa
             // 
             this.rd_visa.AutoSize = true;
+            this.rd_visa.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.rd_visa.Location = new System.Drawing.Point(743, 114);
             this.rd_visa.Name = "rd_visa";
-            this.rd_visa.Size = new System.Drawing.Size(56, 19);
+            this.rd_visa.Size = new System.Drawing.Size(58, 23);
             this.rd_visa.TabIndex = 5;
             this.rd_visa.Text = "簽證";
             this.rd_visa.UseVisualStyleBackColor = true;
@@ -129,9 +132,10 @@
             // rd_atmopened
             // 
             this.rd_atmopened.AutoSize = true;
+            this.rd_atmopened.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.rd_atmopened.Location = new System.Drawing.Point(34, 605);
             this.rd_atmopened.Name = "rd_atmopened";
-            this.rd_atmopened.Size = new System.Drawing.Size(354, 19);
+            this.rd_atmopened.Size = new System.Drawing.Size(360, 23);
             this.rd_atmopened.TabIndex = 10;
             this.rd_atmopened.Text = "(金融卡/信用卡)已開通(國外提款/國外交易)之功能";
             this.rd_atmopened.UseVisualStyleBackColor = true;
@@ -139,9 +143,10 @@
             // rd_safepassport
             // 
             this.rd_safepassport.AutoSize = true;
+            this.rd_safepassport.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.rd_safepassport.Location = new System.Drawing.Point(34, 568);
             this.rd_safepassport.Name = "rd_safepassport";
-            this.rd_safepassport.Size = new System.Drawing.Size(394, 19);
+            this.rd_safepassport.Size = new System.Drawing.Size(405, 23);
             this.rd_safepassport.TabIndex = 11;
             this.rd_safepassport.Text = "已準備至少一個護照影本+ 2 張 6 個月內之 2 吋大頭貼照";
             this.rd_safepassport.UseVisualStyleBackColor = true;
@@ -151,9 +156,10 @@
             this.rd_visaok.AutoSize = true;
             this.rd_visaok.Checked = true;
             this.rd_visaok.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.rd_visaok.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.rd_visaok.Location = new System.Drawing.Point(34, 643);
             this.rd_visaok.Name = "rd_visaok";
-            this.rd_visaok.Size = new System.Drawing.Size(236, 19);
+            this.rd_visaok.Size = new System.Drawing.Size(238, 23);
             this.rd_visaok.TabIndex = 13;
             this.rd_visaok.Text = "我不知道入境某些國家需要簽證";
             this.rd_visaok.UseVisualStyleBackColor = true;
@@ -162,9 +168,10 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.linkLabel1.Location = new System.Drawing.Point(34, 688);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(82, 15);
+            this.linkLabel1.Size = new System.Drawing.Size(84, 19);
             this.linkLabel1.TabIndex = 14;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "免簽證資訊";
@@ -172,6 +179,7 @@
             // 
             // btn_next
             // 
+            this.btn_next.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btn_next.Location = new System.Drawing.Point(786, 651);
             this.btn_next.Name = "btn_next";
             this.btn_next.Size = new System.Drawing.Size(102, 44);
@@ -183,9 +191,10 @@
             // blank1
             // 
             this.blank1.AutoSize = true;
+            this.blank1.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.blank1.Location = new System.Drawing.Point(96, 253);
             this.blank1.Name = "blank1";
-            this.blank1.Size = new System.Drawing.Size(41, 15);
+            this.blank1.Size = new System.Drawing.Size(51, 19);
             this.blank1.TabIndex = 16;
             this.blank1.Text = "label3";
             this.blank1.Visible = false;
@@ -193,9 +202,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label3.Location = new System.Drawing.Point(294, 253);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 15);
+            this.label3.Size = new System.Drawing.Size(51, 19);
             this.label3.TabIndex = 17;
             this.label3.Text = "label3";
             this.label3.Visible = false;
@@ -203,9 +213,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label4.Location = new System.Drawing.Point(506, 253);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 15);
+            this.label4.Size = new System.Drawing.Size(51, 19);
             this.label4.TabIndex = 18;
             this.label4.Text = "label4";
             this.label4.Visible = false;
@@ -213,23 +224,13 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("微軟正黑體", 9.310345F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label5.Location = new System.Drawing.Point(758, 253);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 15);
+            this.label5.Size = new System.Drawing.Size(51, 19);
             this.label5.TabIndex = 19;
             this.label5.Text = "label5";
             this.label5.Visible = false;
-            // 
-            // button1
-            // 
-            this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button1.Location = new System.Drawing.Point(34, 13);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 36);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "遊戲進度";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pb_visa
             // 
@@ -289,7 +290,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(928, 737);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -347,6 +347,5 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox rd_atmcard;
-        private System.Windows.Forms.Button button1;
     }
 }

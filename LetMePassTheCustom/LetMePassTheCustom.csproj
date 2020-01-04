@@ -63,6 +63,12 @@
     <Compile Include="Document.Designer.cs">
       <DependentUpon>Document.cs</DependentUpon>
     </Compile>
+    <Compile Include="FastPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FastPass.designer.cs">
+      <DependentUpon>FastPass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,12 +110,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="openedWindows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="openedWindows.Designer.cs">
+      <DependentUpon>openedWindows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Solider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Solider.Designer.cs">
+      <DependentUpon>Solider.cs</DependentUpon>
+    </Compile>
     <Compile Include="Texts.cs" />
     <EmbeddedResource Include="BookingTicket.resx">
       <DependentUpon>BookingTicket.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Document.resx">
       <DependentUpon>Document.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FastPass.resx">
+      <DependentUpon>FastPass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -139,6 +160,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Solider.resx">
+      <DependentUpon>Solider.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -241,6 +265,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\forbid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pathfinder.png" />
+    <None Include="Resources\out_whole.png" />
+    <None Include="Resources\perfect.png" />
+    <None Include="Resources\person.png" />
+    <None Include="Resources\temp1.png" />
+    <None Include="Resources\bg.png" />
+    <Content Include="Resources\temp.png" />
+    <Content Include="Resources\themask1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

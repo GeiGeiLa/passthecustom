@@ -38,7 +38,6 @@
             this.lb_result = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Feb = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lb_applyForPassport
@@ -150,22 +149,11 @@
             this.Feb.Text = "2/1";
             this.Feb.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button1.Location = new System.Drawing.Point(35, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 36);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "遊戲進度";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Passport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(780, 497);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.Feb);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lb_result);
@@ -196,6 +184,5 @@
         private System.Windows.Forms.Label lb_result;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RadioButton Feb;
-        private System.Windows.Forms.Button button1;
     }
 }

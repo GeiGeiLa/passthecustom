@@ -93,6 +93,16 @@ namespace LetMePassTheCustom.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap bg {
+            get {
+                object obj = ResourceManager.GetObject("bg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap c4bomb {
             get {
                 object obj = ResourceManager.GetObject("c4bomb", resourceCulture);
@@ -293,6 +303,46 @@ namespace LetMePassTheCustom.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap out_whole {
+            get {
+                object obj = ResourceManager.GetObject("out_whole", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap pathfinder {
+            get {
+                object obj = ResourceManager.GetObject("pathfinder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap perfect {
+            get {
+                object obj = ResourceManager.GetObject("perfect", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap person {
+            get {
+                object obj = ResourceManager.GetObject("person", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap powerbank {
             get {
                 object obj = ResourceManager.GetObject("powerbank", resourceCulture);
@@ -336,6 +386,16 @@ namespace LetMePassTheCustom.Properties {
         internal static System.Drawing.Bitmap Taiwan_ROC_Passport1 {
             get {
                 object obj = ResourceManager.GetObject("Taiwan_ROC_Passport1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap temp {
+            get {
+                object obj = ResourceManager.GetObject("temp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

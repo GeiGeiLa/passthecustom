@@ -16,7 +16,7 @@ namespace LetMePassTheCustom
         public Passport()
         {
             InitializeComponent();
-
+            openedWindows.Windows.Add(this);
         }
 
         private void Passport_Load(object sender, EventArgs e)

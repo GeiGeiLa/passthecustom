@@ -27,16 +27,16 @@ namespace LetMePassTheCustom
             switch (e.KeyCode)
             {
                 case Keys.Up:
-                    label9.Top -= 2;
+                    label9.Top -= 4;
                     break;
                 case Keys.Down:
-                    label9.Top += 2;
+                    label9.Top += 4;
                     break;
                 case Keys.Left:
-                    label9.Left -= 2;
+                    label9.Left -= 4;
                     break;
                 case Keys.Right:
-                    label9.Left += 2;
+                    label9.Left += 4;
                     break;
             }
         }
@@ -69,7 +69,7 @@ namespace LetMePassTheCustom
                 string diffSec = Convert.ToString(time % 60);
                 label10.Text = "還有" + diffMin + " 分 " + diffSec + " 秒 ";
                 //hungry
-                if (condi[0] && time == 120)
+                if (condi[0] && time == 40)
                 {
                     timer1.Stop();
                     if (magic[0])
@@ -106,13 +106,26 @@ namespace LetMePassTheCustom
         }
         private void timer2_Tick(object sender, EventArgs e)
         {
-
+            if (Solider.ready == true)
+            {
+                label2.BackColor = Color.Aquamarine;
+            }
+            else
+            {
+                start = true;
+            }
+            if(label9.Bounds.IntersectsWith(label5.Bounds))
+            {
+                (new FastPass()).Show();
+                label9.Location = new Point(label9.Left - 10, label9.Bottom + 10);
+            }
             if (label9.Bounds.IntersectsWith(label2.Bounds) && start)
             {
                 start = false;
                 islv[0] = true;
-                label2.BackColor = Color.Aquamarine;
                 (new Passport()).Show();
+                label9.Location = new Point(label9.Location.X, label2.Bottom + 15);
+
             }
             if (label9.Bounds.IntersectsWith(label3.Bounds) && islv[0])
             {
@@ -199,6 +212,10 @@ namespace LetMePassTheCustom
 
             }
 
+
+
+
+
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -215,6 +232,11 @@ namespace LetMePassTheCustom
         private void label5_Click(object sender, EventArgs e)
         {
            // (new 快速通關()).Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

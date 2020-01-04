@@ -16,7 +16,7 @@ namespace LetMePassTheCustom
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BookingTicket());
+            Application.Run(new Form1());
         }
     }
 }

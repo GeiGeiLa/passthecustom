@@ -13,11 +13,13 @@ namespace LetMePassTheCustom
 {
     public partial class Items : Form
     {
+        public static bool? isCompleted = null;
         static string itempath = @"..\..\..\assests\items\";
         Point[] range = {new Point(23,70), new Point(802, 70),
                     new Point(23, 746), new Point(802, 746)};
         List<Label> message;
         List<TrackBar> trackbar;
+
         public Items()
         {
             InitializeComponent();
@@ -115,7 +117,13 @@ namespace LetMePassTheCustom
 
         private void btn_next_Click(object sender, EventArgs e)
         {
-
+            foreach(var w in openedWindows.Windows)
+            {
+                w.Close();
+            }
+            openedWindows.Windows.Clear();
+            isCompleted = true;
+            this.Close();
         }
 
         private void btn_check_Click(object sender, EventArgs e)

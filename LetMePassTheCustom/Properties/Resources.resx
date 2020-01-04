@@ -124,6 +124,9 @@
   <data name="wetpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wetpaper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="out_whole" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\out_whole.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cupboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cupboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,6 +151,9 @@
   <data name="hairspray" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hairspray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nailcutter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nailcutter1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="visa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\visa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,26 +169,32 @@
   <data name="room" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="forbid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\forbid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cap" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iPad" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iPad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="person" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ROC_ID_2005_specimen_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ROC_ID_2005_specimen_front.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nailcutter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nailcutter1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="backpack" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\backpack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="luggage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\luggage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="backpack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backpack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nailcutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nailcutter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="perfect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perfect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="history1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\history1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,13 +211,19 @@
   <data name="20180718165455-8c570a02bf03ec8bf7323722ff8cb5bb-mobile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\20180718165455-8c570a02bf03ec8bf7323722ff8cb5bb-mobile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="temp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\temp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="c4bomb2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c4bomb2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ham1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ham1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="forbid" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\forbid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pathfinder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pathfinder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

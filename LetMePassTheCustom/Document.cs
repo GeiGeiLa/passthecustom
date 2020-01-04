@@ -14,6 +14,7 @@ namespace LetMePassTheCustom
 {
     public partial class Document : Form
     {
+        public static bool isReady = false;
         readonly List<Point> OriginalPositions;
         List<bool> draggable;
         List<Point> fixedPoints;
@@ -21,6 +22,7 @@ namespace LetMePassTheCustom
         public Document()
         {
             InitializeComponent();
+            openedWindows.Windows.Add(this);
             OriginalPositions = new List<Point>();
             fixedPoints = new List<Point>();
             draggable = new List<bool>();
@@ -195,9 +197,18 @@ namespace LetMePassTheCustom
             }
             else
             {
-                this.Hide();
-              //  (new Items()).Show();
+                if (rd_passport.Checked && rd_id.Checked && rd_atmcard.Checked)
+                {
+                    MessageBox.Show("記得台灣有許多免簽證國家！", "GOOD", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Hide();
+                    (new Solider()).Show();
+                }
+                else
+                {
+                    MessageBox.Show("有東西漏掉了！把準備好的東西打個勾！", "還沒準備好", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
+
         }
 
         private void checkBox7_CheckedChanged(object sender, EventArgs e)
